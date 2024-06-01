@@ -6,9 +6,9 @@ A: `Emmet` is the essential toolkit for web-developers. It allows you to `type s
 
 ## Q: What is `CDN`? Why do we use it?
 
-# This is first way to use react
+### This is first way to use react
 
-# inside CDN link => React code (plain JS code)
+### inside CDN link => React code (plain JS code)
 
 A: A `content delivery network (CDN)` refers to a geographically distributed group of servers that work together to provide fast delivery of Internet content.
 The goal is to provide high availability and performance by distributing the service spatially relative to end users.
