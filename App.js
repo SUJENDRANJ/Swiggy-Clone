@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const head = React.createElement(
   "div",
   { id: "bg" },
