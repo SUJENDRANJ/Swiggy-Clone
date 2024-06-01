@@ -1,10 +1,12 @@
-// const head = document.createElement("h1");
-// head.innerHTML = "JS";
-// const root = document.getElementById("root");
-// root.appendChild(head);
+const head = React.createElement(
+  "div",
+  { id: "bg" },
+  React.createElement("div", {}, [
+    React.createElement("h1", {}, "From H1 tag"),
+    React.createElement("p", {}, "From p"),
+  ])
+);
 
-const heading = React.createElement("h1", { id: "bg", xyz: "abs" }, "React");
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(heading);
-console.log(heading);
+root.render(head);
