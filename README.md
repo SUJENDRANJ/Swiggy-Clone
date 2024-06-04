@@ -23,3 +23,4 @@ The purpose of crossorigin attribute is used to share the resources from one dom
 ```sh
 <script crossorigin="anonymous|use-credentials">
 ```
+## Q: What is `crossorigin in script tag`?
